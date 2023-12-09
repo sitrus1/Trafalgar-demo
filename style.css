@@ -156,13 +156,12 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px; /* 333.333% */
-    padding-left: 40px;
-    padding-right: 40px;
+    line-height: 56px; /* 333.333% */
     border-radius: 55px;
     background: #458FF6;
     border: none;
     cursor: pointer;
+    margin: 0;
 }
 .hero__img{
     width: 693px;
@@ -250,11 +249,11 @@
     display: flex;
     align-items: center;
     margin-bottom: 229px;
+    justify-content: space-between;
 }
 .section2__img{
     width: 650px;
     height: 477px;
-    margin-right: 137px;
 }
 .section2__wrp{
     display: flex;
