@@ -1,0 +1,84 @@
+:root{
+    --body-backgound: #EEEEEE;
+
+    --p-color: none;
+    --p-fontSize: none;
+
+    --h2-color: none;
+    --h2-fontSize: none;
+}
+
+/* Normalise styles */
+    body{
+        margin: 0;
+    }
+
+    h1, h2, h3, h4, h5, h6, p{
+        margin: 0;
+    }
+
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+/* Global styles */
+    body{
+        font-family: 'Mulish', sans-serif;
+        background-color: var(--body-backgound);
+    }
+
+    p{
+        color: var(--p-color);
+        font-size: var(--p-fontSize);
+    }
+
+    h2{
+        color: var(--h2-color);
+        font-size: var(--h2-fontSize);
+    }
+
+/* Header */
+
+
+/* /Header */
+
+/* Hero */
+
+
+/* /Hero */
+
+/* Section 1 */
+
+
+/* /Section 1 */
+
+/* Section 2 */
+
+
+/* /Section 2 */
+
+/* Section 3 */
+
+
+/* /Section 3 */
+
+/* Section 4 */
+
+
+/* /Section 4 */
+
+/* Section 5 */
+
+
+/* /Section 5 */
+
+/* Footer */
+
+
+/* /Footer */
