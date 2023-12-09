@@ -290,6 +290,99 @@
 
 /* Section 4 */
 
+    .section4{
+        margin-bottom: 222px;
+    }
+
+    .section4__comments{
+        width: 1120px;
+        height: 445px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        margin-bottom: 42px;
+        padding: 64px 118px 79px 118px;
+        border-radius: 24px;
+        background: linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    }
+
+    .section4__comments__h2title{
+        margin-bottom: 25px;
+        color: #FFF;
+        text-align: center;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px; /* 133.333% */
+    }
+
+    .section4__comments__hr{
+        margin-bottom: 66px;
+        background-color: #FFF;
+    }
+
+    .section4__comments__bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .section4__comments__bottom__account{
+        display: flex;
+        align-items: center;
+    }
+
+    .section4__comments__imgman{
+        width: 141px;
+        height: 141px;
+        box-sizing: border-box;
+        margin-right: 29px;
+        border-radius: 50%;
+        border: 4px solid #FFF;
+    }
+
+    .section4__comments__name{
+        width: 184px;
+        color: #FFF;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px; /* 218.182% */
+    }
+
+    .section4__comments__whoare{
+        color: #ffffffd9;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; /* 266.667% */
+    }
+
+    .section4__comments__massage{
+        width: 390px;
+        color: #ffffffe6;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 157.895% */
+    }
+
+
+    .section4__buttons{
+        width: 20%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .section4__buttons__arrow{
+        transition: all .4s;
+        cursor: pointer;
+    }
+
+    .section4__buttons__arrow:hover{
+        opacity: .4;
+    }
 
 /* /Section 4 */
 
