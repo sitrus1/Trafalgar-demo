@@ -56,6 +56,36 @@
         border: none;
         background-color: #000;
     }
+    
+    .hr-start{
+        width: 56px;
+        height: 2px;
+        margin: 0;
+        border-radius: 50px;
+        border: none;
+        background-color: #000;
+    }
+
+    button{
+        width: 200px;
+        height: 56px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        display: block;
+        color: #458FF6;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 56px; /* 333.333% */
+        border-radius: 55px;
+        border: 1.4px solid #458FF6;
+        transition: all .2s;
+        cursor: pointer;
+    }
+
+    button:hover{
+        transform: scale(1.1);
+    }
 
 /* Header */
 .header-container{
@@ -143,6 +173,10 @@
 
 /* Section 1 */
 
+    .section1{
+        margin-bottom: 221px;
+    }
+
     .section1__h2title{
         margin-bottom: 26px;
         text-align: center;
@@ -168,6 +202,7 @@
     .section1__ullist{
         width: 1123px;
         margin: 0 auto;
+        margin-bottom: 72px;
         display: grid;
         grid-template-columns: 350px 350px 350px;
         gap: 35px;
@@ -180,6 +215,11 @@
         border-radius: 20px;
         background: #FFF;
         box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+        transition: all .4s;
+        cursor: pointer;
+    }
+    .section1__liitem:hover{
+        transform: translateY(10px);
     }
 
     .section1__imgicon{
