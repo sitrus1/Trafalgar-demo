@@ -284,7 +284,16 @@
 /* /Section 2 */
 
 /* Section 3 */
-
+.section3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 266px;
+}
+.section3__img{
+    width: 665px;
+    height: 434px;
+}
 
 /* /Section 3 */
 
