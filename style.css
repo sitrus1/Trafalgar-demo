@@ -82,7 +82,7 @@
 .hero{
     display: flex;
     align-items: center;
-    
+    margin-bottom: 192px;
 }
 .hero__wrp{
     margin-right: 109px;
