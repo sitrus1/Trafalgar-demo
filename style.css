@@ -117,6 +117,7 @@
     border-radius: 55px;
     background: #458FF6;
     border: none;
+    cursor: pointer;
 }
 .hero__img{
     width: 693px;
