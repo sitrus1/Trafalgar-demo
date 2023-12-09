@@ -94,6 +94,7 @@
 
 /* Hero */
 .hero{
+    justify-content: space-between;
     display: flex;
     align-items: center;
     margin-bottom: 192px;
@@ -215,6 +216,11 @@
     height: 477px;
     margin-right: 137px;
 }
+.section2__wrp{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
 .section2__wrp__title{
     font-style: normal;
     font-weight: 700;
@@ -224,6 +230,11 @@
 }
 .section2__wrp__line{
     width: 56px;
+    margin-bottom: 31px;
+}
+.section2__wrp__text{
+    width: 450px;
+    margin-bottom: 40px;
 }
 
 /* /Section 2 */
