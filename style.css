@@ -1,11 +1,11 @@
 :root{
     --body-backgound: #EEEEEE;
 
-    --p-color: none;
-    --p-fontSize: none;
+    --p-color: #7D7987;
+    --p-fontSize: 18px;
 
-    --h2-color: none;
-    --h2-fontSize: none;
+    --h2-color: #000;
+    --h2-fontSize: 36px;
 }
 
 /* Normalise styles */
